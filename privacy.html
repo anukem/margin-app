@@ -11,14 +11,15 @@
 <main>
   <div class="eyebrow">margin – listen &amp; ask</div>
   <h1>Privacy policy</h1>
-  <p class="meta">Effective October 12, 2026</p>
+  <p class="meta">Effective October 14, 2026</p>
 
   <section>
     <h2>In short</h2>
     <ul>
       <li>margin has no accounts, no ads, and no tracking. We do not sell or share your data for advertising.</li>
       <li>Your saved articles, highlights, notes, and questions are stored on your iPhone.</li>
-      <li>To read articles aloud, answer your questions, and pick articles for you, margin sends some text to AI services. It does this only after you agree, and you can turn it off in Settings.</li>
+      <li>To read articles aloud, answer your questions, and pick articles for you, margin sends some text to AI services: our own voice server, and Groq, Inc., which runs the gpt-oss model for answers and Discover. It does this only after you agree, and you can turn it off in Settings.</li>
+      <li>margin never sends or keeps recordings of your voice. Speech becomes text on your iPhone.</li>
     </ul>
   </section>
 
@@ -36,7 +37,13 @@
 
   <section>
     <h2>Microphone and speech recognition</h2>
-    <p>The microphone is used only while an article is open in audio mode and margin is on screen: to hear your wake word (“Jarvis” unless you change it) and your questions. Speech is turned into text on your iPhone by Apple’s speech recognition. margin does not record or keep audio of your voice, and does not send it to us. Only the text of your question goes to the answer service described below. When you teach margin your wake word in Settings, it keeps only the text spellings it heard, on your iPhone.</p>
+    <p>margin uses the microphone to hear your questions about the article you are listening to:</p>
+    <ul>
+      <li><strong>When you tap the ask button</strong> in audio mode, margin listens until you finish your question.</li>
+      <li><strong>After an answer</strong>, margin listens for about 5 more seconds, so you can ask a follow-up question without tapping again.</li>
+      <li><strong>Wake word (off unless you turn it on).</strong> In Settings, the switch <strong>Say “Marigold” to ask</strong> lets margin listen for a word you choose. While it is on and an article plays, margin listens for that word on your iPhone, also when margin is in the background or your phone is locked. iOS shows that the microphone is in use. When you pause in the background, margin turns the microphone off.</li>
+    </ul>
+    <p>Speech is turned into text on your iPhone by Apple’s speech recognition. margin does not record or keep audio of your voice, and never sends audio to us or to anyone else. Only the text of a question you ask goes to the answer service described below. Speech before the wake word is not sent. When you teach margin your wake word in Settings, it keeps only the text spellings it heard, on your iPhone.</p>
   </section>
 
   <section>
@@ -44,11 +51,17 @@
     <p>Before the first time any text is sent, margin explains this and asks for your permission. If you do not agree, margin only reads articles and sends nothing. You can change your choice in <strong>Settings → Privacy → Use AI services</strong>.</p>
     <ul>
       <li><strong>Voice (Kokoro).</strong> To make the narration you hear, the text of the article is sent to a speech server that we run with a cloud provider. The text is used to create the audio and is not kept afterwards.</li>
-      <li><strong>Answers (gpt-oss, provided by Groq).</strong> When you ask a question, margin sends the text of your question, the article text around where you paused (up to about 40,000 characters), and earlier questions and answers from that session to <a href="https://groq.com/privacy-policy/">Groq, Inc.</a>, which runs the gpt-oss model.</li>
-      <li><strong>Discover picks (gpt-oss, provided by Groq).</strong> To pick new articles for you, margin sends the titles and website names of your recently saved articles, a few of your recent questions, and the titles of candidate stories to Groq.</li>
+      <li><strong>Answers (gpt-oss, provided by Groq, Inc.).</strong> When you ask a question, margin sends the text of your question, the article text around where you paused (up to about 40,000 characters), and earlier questions and answers from that session to <a href="https://groq.com/privacy-policy/">Groq, Inc.</a>, which runs the gpt-oss model.</li>
+      <li><strong>Discover picks (gpt-oss, provided by Groq, Inc.).</strong> To pick new articles for you, margin sends the titles and website names of your recently saved articles, a few of your recent questions, and the titles of candidate stories to Groq.</li>
       <li><strong>OpenAI (only if you choose it).</strong> If you choose OpenAI for the voice or answers in Settings and add your own OpenAI key, the same kinds of text go to <a href="https://openai.com/policies/privacy-policy/">OpenAI</a> under your own OpenAI account.</li>
     </ul>
+    <p>In the app, the consent screen and Settings name these services by their models: Kokoro for the voice, and gpt-oss for answers and Discover. The company that receives the text for gpt-oss is Groq, Inc.</p>
     <p>These services process the text to provide the feature you asked for. Their handling of it is also covered by their own privacy policies, linked above. margin does not send your name, contact details, or device identifiers with these requests.</p>
+  </section>
+
+  <section>
+    <h2>Reporting an answer</h2>
+    <p>If an answer is wrong or harmful, press and hold it and choose <strong>Report answer</strong>. Your Mail app opens with an email to us that contains the question and the answer. Nothing is sent until you send that email.</p>
   </section>
 
   <section>
